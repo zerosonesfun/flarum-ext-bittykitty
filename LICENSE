@@ -1,6 +1,10 @@
-MIT License
+The way the extension is coded is licensed under MIT because Flarum is and most Flarum extensions are. But, the MIT license is only for the extension code itself. It does not cover the actual Kitty Bitty emoji graphics. Kitty Bitty emoji are licensed under the Creative Commons 4.0 International license. Meaning, if you display them on your website, please in your footer, or in a post, or on a page dedicated to credits, credit the author Billy Wilcosky. Or, at the very least, always leave the beginning comments in the extend.php file in tact. But, this is the very least. A visible credit would be very much appreciated. Thank you.
 
-Copyright (c) 2018 Bungalow Bill
+Kitty Bitty License: https://github.com/zerosonesfun/BittyKitty/blob/main/LICENSE
+
+MIT License (for extension code not Kitty Bitty):
+
+Copyright (c) 2020 Billy Wilcosky
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
