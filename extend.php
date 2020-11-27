@@ -19,43 +19,43 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
-                '[bk=angry]',
+                '[bk="angry"]',
                 '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@m1/assets/Icons/svg/Angry.svg" alt="retro pixelated purple kitty emoji with an angry face" title="Kitty Angry"></span>'
             );
             $config->BBCodes->addCustom(
-                '[bk=happy]',
+                '[bk="happy"]',
                 '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@m1/assets/Icons/svg/Happy.svg" alt="retro pixelated purple kitty emoji with a happy face" title="Kitty Happy"></span>'
             );
             $config->BBCodes->addCustom(
-                '[bk=cool]',
+                '[bk="cool"]',
                 '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@m1/assets/Icons/svg/Kewl.svg" alt="retro pixelated purple kitty emoji with cool sunglasses" title="Kitty Kewl"></span>'
             );
             $config->BBCodes->addCustom(
-                '[bk=kiss]',
+                '[bk="kiss"]',
                 '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@m1/assets/Icons/svg/Kissy.svg" alt="retro pixelated purple kitty emoji blowing a kiss" title="Kitty Kiss"></span>'
             );
             $config->BBCodes->addCustom(
-                '[bk=laugh]',
+                '[bk="laugh"]',
                 '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@m1/assets/Icons/svg/Laughy.svg" alt="retro pixelated purple kitty emoji laughing" title="Kitty Laugh"></span>'
             );
             $config->BBCodes->addCustom(
-                '[bk=nanny]',
+                '[bk="nanny"]',
                 '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@m1/assets/Icons/svg/Nanny.svg" alt="retro pixelated purple kitty emoji going nanny-nanny-boo-boo" title="Kitty Nanny Nanny Boo Boo"></span>'
             );
             $config->BBCodes->addCustom(
-                '[bk=sad]',
+                '[bk="sad"]',
                 '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@m1/assets/Icons/svg/Sad.svg" alt="retro pixelated purple kitty emoji with a sad face" title="Kitty Sad"></span>'
             );
             $config->BBCodes->addCustom(
-                '[bk=speechless]',
+                '[bk="speechless"]',
                 '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@m1/assets/Icons/svg/Speechless.svg" alt="retro pixelated purple kitty emoji with no mouth because kitty is speechless" title="Kitty Speechless"></span>'
             );
             $config->BBCodes->addCustom(
-                '[bk=wink]',
+                '[bk="wink"]',
                 '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@m1/assets/Icons/svg/Winky.svg" alt="retro pixelated purple kitty emoji winking" title="Kitty Wink"></span>'
             );
             $config->BBCodes->addCustom(
-                '[bk=wow]',
+                '[bk="wow"]',
                 '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@m1/assets/Icons/svg/Wow.svg" alt="retro pixelated purple kitty emoji with a shocked face" title="Kitty Shock"></span>'
             );
         })
