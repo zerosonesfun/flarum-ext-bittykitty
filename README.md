@@ -1,8 +1,38 @@
-# Flarum BBCode Template
+# Bitty Kitty Emoji for Flarum
 
-This is not an installable extension. It is simply a template you can copy to create your own BBCode extension for Flarum. In the future I may add detailed instructions here. For now, all I can say is:
+# BittyKitty
+An original retro kitty emoji set built for Flarum but could be used anywhere. 
 
-1. Edit extend.php - You'll see where the BBCode is (brackets), and then just below that line will be the HTML that the BBCode changes into. Above all of that is where you can add a URL to an external stylesheet and/or JavaScript.
-2. Edit composer.json - Put in your GitHub username where appropriate and give the extension a name. 
-3. Edit this README.
-4. Add your CSS in the stylesheet inside of the assets folder. That's where you can add a JavaScript file as well.
+![](https://github.com/zerosonesfun/BittyKitty/blob/main/assets/AA9BF7FE-23E3-4A3D-97F8-60E1C255FF65.png?raw=true)
+
+![](https://i.creativecommons.org/l/by/4.0/80x15.png)
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+This means it is free, can be remixed, and whatever. But, you must credit me, the author. You may do this on a page of your website dedicated to credits, in your footer, or at the very least as a comment within your code. Recommended verbiage:
+Pixel kitty emoji created by Billy Wilcosky, originally for Flarum.
+
+## Install
+`composer require zerosonesfun/flarum-ext-bittykitty`
+
+## Update
+`composer update zerosonesfun/flarum-ext-bittykitty`
+
+## Remove
+`composer remove zerosonesfun/flarum-ext-bittykitty`
+
+## How to use
+
+Use a custom BBCode to display your kitty. The code will always begin the same way. You just replace the emotion.
+`[bk=happy]`
+
+All available emotions (what you type after the equals sign):
+- angry
+- happy
+- cool
+- kiss
+- laugh
+- nanny
+- sad
+- speechless
+- wink
+- wow
