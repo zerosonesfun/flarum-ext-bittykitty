@@ -1,6 +1,5 @@
 # Bitty Kitty Emoji for Flarum
 
-# BittyKitty
 An original retro kitty emoji set built for Flarum but could be used anywhere. 
 
 ![](https://github.com/zerosonesfun/BittyKitty/blob/main/assets/AA9BF7FE-23E3-4A3D-97F8-60E1C255FF65.png?raw=true)
