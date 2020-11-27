@@ -22,7 +22,7 @@ Pixel kitty emoji created by Billy Wilcosky, originally for Flarum.
 ## How to use
 
 Use a custom BBCode to display your kitty. The code will always begin the same way. You just replace the emotion/action. Emotions/actions are case sensitive.
-`[bk="Happy"]`
+`[bk=Happy]`
 
 All available emotions (what you type after the equals sign):
 - Angry
