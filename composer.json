@@ -1,25 +1,25 @@
 {
-    "name": "yourusername/flarum-bbcode-template",
-    "description": "Your description.",
+    "name": "zerosonesfun/flarum-ext-bittykitty",
+    "description": "Bitty Kitty emoji set (BBCode)",
+    "license": "(MIT and CC BY 4.0)",
     "authors": [
         {
-            "name": "Your Name",
+            "name": "Billy Wilcosky",
             "role": "Creator"
         }
     ],
     "type": "flarum-extension",
-    "license": "MIT",
     "require": {
-        "flarum/core": "^0.1.0-beta.8"
+        "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.15"
     },
     "autoload": {
-        "psr-4": {"UserName\\bbcode-template\\": "src/"}
+        "psr-4": {"ZerosOnesFun\\BittyKitty\\": "src/"}
     },
     "extra": {
         "flarum-extension": {
-            "title": "BBCode Template",
+            "title": "Bitty Kitty",
             "icon": {
-                "name": "fas fa-bold",
+                "name": "fas fa-paw",
                 "backgroundColor": "#ddd",
                 "color": "#000"
             }
