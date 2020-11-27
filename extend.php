@@ -1,7 +1,7 @@
 <?php
 
 /*
- * A Flarum extension template for BBCode created by Billy Wilcosky.
+ * A Flarum extension created by Billy Wilcosky which links to Billy's original Bitty Kitty emoji.
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  * For instructions, please view the README file.
