@@ -19,8 +19,8 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
-                '[bk={CHOICE=Angry,Happy,Cool,Kiss,Laugh,Tongue,Sad,Speechless,Wink,Wow;caseSensitive}]',
-                '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@1.0.1/dist/icons/SVG/{CHOICE}.svg" alt="retro pixelated purple kitty with {CHOICE} face" title="Kitty {CHOICE}"></span>'
+                '[bk={CHOICE=Angry,Happy,Cool,Kiss,Laugh,Tongue,Sad,Speechless,Wink,Wow}]',
+                '<span class="bitty-kitty"><img src="https://cdn.jsdelivr.net/gh/zerosonesfun/BittyKitty@1.0.2/dist/icons/SVG/{CHOICE}.svg" alt="retro pixelated purple kitty with {CHOICE} face" title="Kitty {CHOICE}"></span>'
             );
         })
 ];
