@@ -20,7 +20,7 @@ return [
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
                 '[bk={CHOICE=Angry,Happy,Cool,Kiss,Laugh,Tongue,Sad,Speechless,Wink,Wow}]',
-                '<span class="bitty-kitty"><img src="../assets/extensions/zerosonesfun-bittykitty/{CHOICE}.svg" alt="retro pixelated purple kitty with {CHOICE} face" title="Kitty {CHOICE}"></span>'
+                '<span class="bitty-kitty"><img src="../assets/extensions/zerosonesfun-bittykitty/icons/{CHOICE}.svg" alt="retro pixelated purple kitty with {CHOICE} face" title="Kitty {CHOICE}"></span>'
             );
         })
 ];
