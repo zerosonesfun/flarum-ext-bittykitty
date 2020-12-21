@@ -1,23 +1,39 @@
 {
     "name": "zerosonesfun/flarum-ext-bittykitty",
-    "description": "Bitty Kitty emoji set (BBCode)",
-    "license": "(MIT and CC-BY-4.0)",
+    "description": "Retro 8-bit style kitty emoji BBCode.",
+    "type": "flarum-extension",
+    "keywords": ["discussion, emoji, kitty, cat"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Billy Wilcosky",
             "role": "Creator"
         }
     ],
-    "type": "flarum-extension",
+    "support": {
+        "issues": "https://github.com/zerosonesfun/hastags/issues",
+        "source": "https://github.com/zerosonesfun/hashtags",
+        "forum": "https://discuss.flarum.org"
+    },
+    "homepage": "https://www.wilcosky.com",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://www.wilcosky.com"
+        }
+    ],
     "require": {
-        "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.15"
+        "flarum/core": "^0.1.0-beta.15"
     },
     "autoload": {
-        "psr-4": {"ZerosOnesFun\\BittyKitty\\": "src/"}
+        "psr-4": {
+            "ZerosOnesFun\\BittyKitty\\": "src/"
+        }
     },
     "extra": {
         "flarum-extension": {
-            "title": "Bitty Kitty",
+            "title": "BittyKitty",
+            "category": "discussion",
             "icon": {
                 "name": "fas fa-paw",
                 "backgroundColor": "#ddd",
