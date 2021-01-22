@@ -2,7 +2,7 @@
     "name": "zerosonesfun/flarum-ext-bittykitty",
     "description": "Retro 8-bit style kitty emoji BBCode.",
     "type": "flarum-extension",
-    "keywords": ["discussion, emoji, kitty, cat"],
+    "keywords": ["discussion", "emoji", "kitty", "cat"],
     "license": "MIT",
     "authors": [
         {
